@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node pkg="pacote_simples" name="follow_the_gap_node" type="follow_the_wall_script.py" output="screen">
+    <rosparam command="load" file="$(find pacote_simples)/params.yaml"/>
+  </node>
+
+</launch>
